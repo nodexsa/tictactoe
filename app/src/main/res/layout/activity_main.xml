@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/pirveli"
+
+            android:layout_weight="1"
+            android:layout_width="115dp"
+            android:paddingLeft="30dp"
+            android:layout_height="match_parent"
+            android:text="Motamashe 1: 0"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/meore"
+            android:paddingLeft="0dp"
+            android:layout_weight="1"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:text="Motamashe 2: 0"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/erti"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40sp"
+            android:backgroundTint="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/ori"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40sp"
+            android:backgroundTint="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/sami"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40sp"
+            android:backgroundTint="#FFFFFF"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/otxi"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40sp"
+            android:backgroundTint="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/xuti"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:backgroundTint="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/eqvsi"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40sp"
+            android:backgroundTint="#FFFFFF"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/shvidi"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40sp"
+            android:backgroundTint="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/rva"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40sp"
+            android:backgroundTint="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/cxra"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="onClick"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="40sp"
+            android:backgroundTint="#FFFFFF"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/restarti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:text="Reset"
+            android:backgroundTint="#0000FF"/>
+
+    </TableRow>
+
+
+</TableLayout>
